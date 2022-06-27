@@ -6,9 +6,9 @@ function Header(){
     return(
         <div >
 
-            <Card className="my-2 bg-warning">
+            <Card className="my-2 bg-success">
                 <CardBody>
-                <h2 className="tet-center my-2"> Stock Market Application</h2>
+                <h2 className="text-center my-2"> Stock Market Application</h2>
                 </CardBody>
 
             </Card>

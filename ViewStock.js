@@ -7,7 +7,7 @@ export default function TestTable(){
     const [q,setQ] = useState("");
 
     useEffect(()=>{
-        fetch("http://localhost:8082/api/v1.0/market/stock/get/COG`")
+        fetch("http://localhost:8082/api/v1.0/market/stock/get/TCS")
         .then((response) => response.json())
         .then((json)=>setData(json));
  },[]);
@@ -24,10 +24,10 @@ export default function TestTable(){
 
     return(
         <div>
-            <div>
+            {/* <div>
                 <label>Search here: </label>
                 <input type="text" value={q} onChange={(e)=> setQ(e.target.value)}/>
-                </div>
+                </div> */}
             <div>
                 <DataTable data={search(data)}/>
             </div>

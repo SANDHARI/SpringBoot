@@ -2,9 +2,6 @@ import React, { Fragment, useState,useEffect } from 'react';
 import axios from 'axios';
 import { Button, Form, FormGroup, Input } from 'reactstrap';
 
-
-
-
 const AddStock = () =>{
 
     useEffect(() =>{

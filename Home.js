@@ -1,5 +1,6 @@
 import React from "react";
 import {Container } from "reactstrap";
+import sm from "./stockmarket.jpg"
 
 
 const Home=()=>{
@@ -8,12 +9,11 @@ const Home=()=>{
 
 
         <Container>
-        <h2>Welcome to Stock Market Application</h2>
-        <h3>You are in Home Page</h3>
-        <p>Please click on the menu item to navigate</p>
+        <h3>Welcome to the Stock Market Application</h3>
+        <img src={sm}></img>
         
         </Container>
-                </div>
+    </div>
                
         
     

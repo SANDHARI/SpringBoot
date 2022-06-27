@@ -8,10 +8,10 @@ const Menu = () =>{
     return(
         <ListGroup>
             <Link className="list-group-tem list-group-item-action" tag="a" to="/" action>Home</Link>
-            <Link className="list-group-tem list-group-item-action" tag="a" to="/add-company" action>Add Company</Link>
+            <Link className="list-group-tem list-group-item-action" tag="a" to="/add-company" action>Register Company</Link>
             <Link className="list-group-tem list-group-item-action" tag="a" to="/view-company" action>View Company</Link>
             <Link className="list-group-tem list-group-item-action" tag="a" to="/add-stock" action>Add Stocks</Link>
-            <Link className="list-group-tem list-group-item-action" tag="a" to="/view-stock" action>View Stock Details</Link>
+            <Link className="list-group-tem list-group-item-action" tag="a" to="/view-stock" action>View Stocks</Link>
         </ListGroup>
         
     )
